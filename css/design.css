@@ -1,0 +1,266 @@
+/*Styling for Header*/
+.temp-header1 {
+    background: url(../image/Banner1.jpg) no-repeat bottom;
+    border-bottom: 5px solid #ffe700;
+    color: white;
+}
+.temp-header2 {
+    background: url(../image/Banner2.jpg) no-repeat center;
+    color: #972b2b;
+}
+.temp-header1, .temp-header2 {
+    height: 300px;
+    background-size: cover;
+    padding-top: 2rem;
+}
+.temp-header1 span, .temp-header2 span {
+    display: block;
+    line-height: 1;
+}
+.temp-header1 span:nth-child(1) {
+    font-size: 3.5rem;
+    font-weight: 300;
+    width: fit-content;
+    border-bottom: 2px solid white;
+}
+.temp-header1 span:nth-child(2) {
+    font-size: 6rem;
+    font-weight: 500;
+}
+.temp-header1 span:nth-child(3) {
+    font-size: 2.75rem;
+    font-weight: 400;
+    letter-spacing: 2.5rem;
+    padding-left: 2.5rem;
+}
+.temp-header2 span:nth-child(1), .temp-header2 span:nth-child(3) {
+    font-size: 6rem;
+    font-weight: 700;
+}
+.temp-header2 span:nth-child(2) {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1.25rem;
+    border-top: 2px solid #972b2b;
+    border-bottom: 2px solid #972b2b;
+    width: fit-content;
+    padding-left: 1.25rem;
+}
+.temp-logo{
+    position: absolute;
+    bottom: -63px;
+    left: 5%;
+    height: 125px;
+    width: 150px;
+    padding:50px 10px 10px;
+    background: white;
+    z-index: 1;
+}
+.temp-header1 .temp-logo {
+    border: 3px solid #ffe700;
+}
+.temp-header2 .temp-logo {
+    border: 3px solid #9fe493;
+}
+.temp-banner {
+    height: 450px;
+    padding: 0;
+}
+.temp-banner img {
+    object-fit: cover;
+    width: 100%;
+    height: inherit;
+}
+.header-gradient {
+    background: #9fe493; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #9fe493, #ffe700); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #9fe493, #ffe700); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #9fe493, #ffe700); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #9fe493, #ffe700); /* Standard syntax */
+    height: 5px;
+}
+
+/*Styling for Main Body of Template-1*/
+.container {
+    box-shadow: 0 10px 5px #8d8c8c;
+}
+.category-header{
+    padding-bottom: 15px;
+}
+.category-header h2, .category-footer h2 {
+    font-weight: 400 !important;
+}
+.category {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.category img {
+    object-fit: cover;
+    width: 100%;
+    height: inherit;
+}
+.category .caption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 25px;
+    width: 100%;
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: white;
+}
+.category-footer {
+    padding-top: 15px
+}
+
+/*Styling for Main Body of Template-2*/
+.banner-txt {
+    position: absolute;
+    width: 45%;
+    bottom: 20%;
+    right: 10%;
+    color: white;
+    font-size: 2rem;
+}
+.market {
+    background: url(../image/background.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 200px;
+}
+.market img {
+    object-fit: cover;
+    width: 100%;
+    height: inherit;
+}
+.market p {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.market .card {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+.market .card img {
+    width: 125px;
+}
+
+/* Styling for Buttons*/
+.btn-sharpget {
+    background-color: #01ccb6;
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: black;
+    padding: .5rem 2.5rem;
+    box-shadow: 0 5px 25px #696868;
+    border-radius: 2rem;
+}
+.btn-sharpget:hover {
+    color: white;
+}
+.category-footer .btn-sharpget {
+    margin: 2rem auto 0;
+}
+.market .btn-sharpget {
+    margin: 2rem auto
+}
+
+/*Styling for Footer*/
+footer.container {
+    background-color: black;
+}
+.footer-gradient {
+    background: #9fe493; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #ffe700, #9fe493); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #ffe700, #9fe493); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #ffe700, #9fe493); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ffe700, #9fe493); /* Standard syntax */
+    height: 5px;
+}
+.footer-logo {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.social-logo img{
+    margin: .5rem .75rem;
+}
+footer.container hr {
+    border-top: 1px solid white;
+    width: 100%;
+    margin-top: 0;
+}
+footer nav a.nav-item{
+     color: white !important;
+     font-size: 1.25rem;
+     font-weight: 500;
+ }
+footer nav a.nav-item:hover{
+    color: #01ccb6 !important;
+}
+footer p{
+    margin: 1rem;
+    color: #858585;
+    font-size: 1.5rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 767px) {
+    .temp-header1, .temp-header2 {
+        height: 215px;
+    }
+    .temp-logo {
+        bottom: -50px;
+        left: calc(50% - 62px);
+        height: 100px;
+        width: 125px;
+        padding: 35px 5px 5px;
+    }
+    .temp-header1 span:nth-child(1) {
+        font-size: 1.75rem;
+    }
+    .temp-header1 span:nth-child(2) {
+        font-size: 3rem;
+    }
+    .temp-header1 span:nth-child(3) {
+        font-size: 1.25rem;
+        letter-spacing: 1.25rem;
+        padding-left: 1.25rem;
+    }
+    .temp-header2 span:nth-child(1), .temp-header2 span:nth-child(3) {
+        font-size: 3rem;
+    }
+    .temp-header2 span:nth-child(2) {
+        font-size: 1rem;
+        letter-spacing: 0.65rem;
+        padding-left: 0.65rem;
+    }
+    .temp-banner {
+        height: 200px;
+    }
+    .market .card img {
+        width: 100px;
+    }
+    .btn-sharpget {
+        font-size: 1.25rem;
+        padding: .5rem 1.5rem;
+    }
+    .banner-txt {
+        bottom: 10%;
+        font-size: 1rem;
+    }
+
+    footer nav a.nav-item {
+        color: white !important;
+        font-size: 0.875rem;
+        font-weight: 400;
+    }
+    footer p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner-txt {
+        width: 80%;
+    }
+}
