@@ -1,3 +1,25 @@
+/*Styling for fonts*/
+@font-face {
+    font-family: kaufmann-bt;
+    src: url(../fonts/kaufmann-bt/KaufmnRg.ttf);
+}
+@font-face {
+    font-family: theboldfont;
+    src: url(../fonts/the-bold-font/theboldfont.ttf);
+}
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: amontilladios;
+    src: url(../fonts/amontilladios/Amontilladios.ttf);
+}
+@font-face {
+    font-family: bebas-neue;
+    src: url(../fonts/bebas-neue/BebasNeueBook.ttf);
+}
+
 /*Styling for Header*/
 .temp-header1 {
     background: url(../image/Banner1.jpg) no-repeat bottom;
@@ -18,26 +40,31 @@
     line-height: 1;
 }
 .temp-header1 span:nth-child(1) {
-    font-size: 3.5rem;
+    font-family: amontilladios, sans-serif;
+    font-size: 4rem;
     font-weight: 300;
     width: fit-content;
     border-bottom: 2px solid white;
 }
 .temp-header1 span:nth-child(2) {
-    font-size: 6rem;
-    font-weight: 500;
+    font-family: bebas-neue, sans-serif;
+    font-size: 7rem;
+    font-weight: 900;
 }
 .temp-header1 span:nth-child(3) {
-    font-size: 2.75rem;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 2.5rem;
     font-weight: 400;
-    letter-spacing: 2.5rem;
-    padding-left: 2.5rem;
+    letter-spacing: 2rem;
+    padding-left: 2rem;
 }
 .temp-header2 span:nth-child(1), .temp-header2 span:nth-child(3) {
+    font-family: theboldfont, sans-serif;
     font-size: 6rem;
     font-weight: 700;
 }
 .temp-header2 span:nth-child(2) {
+    font-family: raleway, sans-serif;
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: 1.25rem;
@@ -133,6 +160,7 @@
     height: inherit;
 }
 .market p {
+    font-family: kaufmann-bt, sans-serif;
     font-size: 2.5rem;
     margin-top: 1rem;
 }
@@ -219,7 +247,7 @@ footer p{
         font-size: 1.75rem;
     }
     .temp-header1 span:nth-child(2) {
-        font-size: 3rem;
+        font-size: 4rem;
     }
     .temp-header1 span:nth-child(3) {
         font-size: 1.25rem;
@@ -247,6 +275,9 @@ footer p{
     .banner-txt {
         bottom: 10%;
         font-size: 1rem;
+    }
+    .market p {
+        font-size: 1.875rem;
     }
 
     footer nav a.nav-item {
