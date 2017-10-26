@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a644e49-8e5c-4b94-a4d7-c29f77a16d3d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/design.css" afterPath="$PROJECT_DIR$/css/design.css" />
-    </list>
+    <list default="true" id="8a644e49-8e5c-4b94-a4d7-c29f77a16d3d" name="Default" comment="" />
     <ignored path="Sharpget Templates.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -654,12 +651,12 @@
       <workItem from="1508766952321" duration="630000" />
       <workItem from="1508933934611" duration="12925000" />
       <workItem from="1508965963501" duration="4612000" />
-      <workItem from="1509009278739" duration="125000" />
+      <workItem from="1509009278739" duration="461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55977000" />
+    <option name="totallyTimeSpent" value="56313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
