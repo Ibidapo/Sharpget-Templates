@@ -106,6 +106,31 @@
     background: linear-gradient(to right, #9fe493, #ffe700); /* Standard syntax */
     height: 5px;
 }
+.header-nav {
+    margin: 1rem 0;
+}
+.header-nav .nav-link {
+    color: grey !important;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.header-nav .nav-link:last-child {
+    color: #dd4f05 !important;
+}
+.header-nav .nav-link, .footer-nav .nav-link {
+    border-right: 2px solid grey;
+    padding: 0 1rem;
+}
+.header-nav .nav-link:last-child, .footer-nav .nav-link:last-child {
+    border-right: none;
+}
+.marquee {
+    background-color: #4a7700;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    text-align: center;
+    color: white;
+}
 
 /*Styling for Main Body of Template-1*/
 .container {
@@ -173,6 +198,71 @@
     width: 125px;
 }
 
+/*Style for Main Body of Template-3*/
+.banner3 {
+    background: url(../image/background.jpg) no-repeat center;
+    background-size: cover;
+    height: 550px;
+    padding: 0;
+}
+.banner3-txt {
+    background: rgba(74, 119, 0, 0.5);
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    color: white;
+    font-size: 1.75rem;
+    padding: 2rem 0;
+}
+.red {
+    color: #dd4f05;
+}
+.green {
+    color: #4a7700;
+}
+.red-header {
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+.box, .no-box {
+    margin-bottom: 1.5rem;
+}
+.box {
+    border: 1rem solid #e1e1e1;
+    text-align: center;
+    font-size: 1.675rem;
+    padding: 5%;
+}
+.skewed {
+    background-color: #4a7700;
+    overflow: hidden;
+    height: 60px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.skew1 {
+    background-color: #dd4f05;
+    padding-top: .75rem;
+    color: white;
+}
+.skew1:after {
+    content: '';
+    position: absolute;
+    right: -15px;
+    bottom: -45px;
+    width: 50px;
+    height: 120px;
+    display: block;
+    border-left: 3px solid white;
+    background: #4a7700;
+    z-index: 1;
+    transform: rotate(45deg);
+}
+.skew1 .fa {
+    margin: 0 1rem;
+}
+
 /* Styling for Buttons*/
 .btn-sharpget {
     background-color: #01ccb6;
@@ -191,6 +281,22 @@
 }
 .market .btn-sharpget {
     margin: 2rem auto
+}
+.btn-sharpget3, .banner3-txt .btn-sharpget3, .btn-sharpget4 {
+    font-size: 1.375rem;
+    font-weight: 500;
+    border-radius: .5rem;
+    color: white !important;
+    cursor: pointer;
+}
+.btn-sharpget3, .banner3-txt .btn-sharpget3 {
+    background-color: #4a7700;
+}
+.btn-sharpget4 {
+    background-color: #dd4f05;
+}
+.banner3-txt .btn-sharpget3 {
+    border: 3px solid #dd4f05;
 }
 
 /*Styling for Footer*/
@@ -229,6 +335,27 @@ footer p{
     margin: 1rem;
     color: #858585;
     font-size: 1.5rem;
+}
+footer.temp3 {
+    padding-top: 4rem;
+    height: 350px;
+    background-color: #f1f1f1;
+}
+.footer-nav {
+    margin-bottom: 2rem;
+}
+.footer-nav .nav-link {
+    color: black;
+    font-weight: 500;
+}
+footer.temp3 p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+footer.temp3 p a {
+    color: black;
+    font-weight: 500;
 }
 
 /* Mobile Responsiveness */
